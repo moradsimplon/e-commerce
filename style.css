@@ -4,3 +4,69 @@ body {
 
 
 }
+
+h1 , h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f ), to(  #f39c12 ));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px  black  ;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+#barre {
+  font-family: 'Dancing Script';
+  height: 25px;
+  width: 120px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fef9e7 ), to(  #f39c12 ));
+  border: none ;
+  display: inline-block;
+
+}
+#boutton {
+  font-family: 'Dancing Script';
+  width: 80px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f ), to(  #e67e22 ));
+  border: none ;
+  margin: 0;
+  display: inline-block;
+
+}
+form {
+  height: inherit;
+  width: inherit;
+  margin-right: 1000px;
+  right: -950px;
+  position: absolute;
+
+}
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ float:left; /*pour IE*/
+ border-left:1px solid black;
+ }
+ul li a {
+ font-family: 'Dancing Script';
+ font-size: 22px;
+ font-weight: bold;
+ display:block;
+ float:left;
+ width:100px;
+ line-height:60px; /*hauteur de l'image de fond*/
+ background:black url(bcg-menu.jpeg) repeat-x;
+ color:-webkit-gradient(linear, left top, left bottom, from( #d6dbdf ), to(   #424949  ));
+ text-decoration:none;
+ text-align:center;
+ }
+ul li a:hover {
+ background:black url(bcg-menu.jpeg) repeat-x;
+
+ }
