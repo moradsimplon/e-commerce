@@ -1,116 +1,130 @@
 body {
-  background-image: url(fond.jpg);
-  background-size: 100%;
-
-
+    background-image: url(fond.jpg);
+    background-size: 100%;
 }
 
-h1 , h2 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f ), to(  #f39c12 ));
-
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f), to( #f39c12));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 4px  black  ;
+    text-shadow: 4px black;
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-    text-shadow : 4px 1px 3px  #fae5d3   ;
-    filter : dropshadow(color=#000, offx=4, offy=1) ;
+    text-shadow: 4px 1px 3px #fae5d3;
+    filter: dropshadow(color=#000, offx=4, offy=1);
 }
+
 #barre {
-  font-family: 'Dancing Script';
-  height: 25px;
-  width: 120px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fef9e7 ), to(  #f39c12 ));
-  border: none ;
-  display: inline-block;
-
+    font-family: 'Dancing Script';
+    height: 25px;
+    width: 120px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fef9e7), to( #f39c12));
+    border: none;
+    display: inline-block;
 }
+
 #boutton {
-  font-family: 'Dancing Script';
-  width: 80px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f ), to(  #e67e22 ));
-  border: none ;
-  margin: 0;
-  display: inline-block;
-
+    font-family: 'Dancing Script';
+    width: 80px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7dc6f), to( #e67e22));
+    border: none;
+    margin: 0;
+    display: inline-block;
 }
+
 form {
-  height: inherit;
-  width: inherit;
-  margin-right: 1000px;
-  right: -950px;
-  position: absolute;
-
+    height: inherit;
+    width: inherit;
+    margin-right: 1000px;
+    right: -950px;
+    position: absolute;
 }
+
 ul {
- padding:30px;
- margin:130px;
- list-style-type:none;
-
- }
-li {
- float:left; /*pour IE*/
-
- }
-ul li a {
- font-family: 'Dancing Script',cursive;
- font-size: 24px;
- font-weight: bold;
- display:block;
- float:left;
- width:230px;
- line-height:50px; /*hauteur de l'image de fond*/
- background:black url(bcg-menu.jpeg) repeat-x;
- color: #fdebd0;
- text-decoration:none;
- text-align:center;
- border-radius: 15px;
- }
-ul li a:hover {
- background:black url(bcg-menu.jpeg) repeat-x;
- color:white;
- }
- img {
-   height: 200px;
-   width: 200px;
-   background-color: white ;
-   border: none;
-   border-radius: 4px;
- }
- section {
-   display: flex;
-   justify-content: space-around;
-   vertical-align: middle;
-   color:white;
-   position: center;
-
- }
-input {
-  margin-left: 50px;
-  width: 150px;
-  height: 30px;
-  border: none ;
-  border-radius: 3px ;
-  background-image: url(bcg-menu.jpeg);
-  color: white ;
-  font-family: 'Dancing Script' , cursive;
-  font-size: 20px;
-  box-shadow: 0px 10px 14px -7px  white ;
-  font-weight: bold;
-  cursor: pointer;
-
+    padding: 30px;
+    margin: 130px;
+    list-style-type: none;
 }
-p{
-  font-family: 'Dancing Script' , cursive;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
 
+li {
+    float: left;
+    /*pour IE*/
+}
+
+ul li a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 230px;
+    line-height: 50px;
+    /*hauteur de l'image de fond*/
+    background: black url(bcg-menu.jpeg) repeat-x;
+    color: #fdebd0;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+}
+
+ul li a:hover {
+    background: black url(bcg-menu.jpeg) repeat-x;
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    color: white;
+    position: center;
+}
+
+input {
+    margin-left: 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-image: url(bcg-menu.jpeg);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    box-shadow: 0px 10px 14px -7px white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 footer {
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+}
 
+span {
+    
+    margin: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Rock Salt', cursive;
 }
