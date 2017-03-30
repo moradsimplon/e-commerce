@@ -16,7 +16,8 @@ h1 , h2 {
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-
+    text-shadow : 4px 1px 3px  #fae5d3   ;
+    filter : dropshadow(color=#000, offx=4, offy=1) ;
 }
 #barre {
   font-family: 'Dancing Script';
@@ -45,28 +46,60 @@ form {
 
 }
 ul {
- padding:0;
- margin:0;
+ padding:30px;
+ margin:130px;
  list-style-type:none;
+
  }
 li {
  float:left; /*pour IE*/
- border-left:1px solid black;
+
  }
 ul li a {
- font-family: 'Dancing Script';
- font-size: 22px;
+ font-family: 'Dancing Script',cursive;
+ font-size: 24px;
  font-weight: bold;
  display:block;
  float:left;
- width:100px;
- line-height:60px; /*hauteur de l'image de fond*/
+ width:230px;
+ line-height:50px; /*hauteur de l'image de fond*/
  background:black url(bcg-menu.jpeg) repeat-x;
- color:-webkit-gradient(linear, left top, left bottom, from( #d6dbdf ), to(   #424949  ));
+ color: #fdebd0;
  text-decoration:none;
  text-align:center;
+ border-radius: 15px;
  }
 ul li a:hover {
  background:black url(bcg-menu.jpeg) repeat-x;
+ color:white;
+ }
+ img {
+   height: 200px;
+   width: 200px;
+   background-color: white ;
+   border: none;
+   border-radius: 4px;
+ }
+ section {
+   display: flex;
+   justify-content: space-around;
+   vertical-align: middle;
+   color:white;
+   position: center;
 
  }
+input {
+  margin-left: 50px;
+  width: 150px;
+  height: 30px;
+  border: none ;
+  border-radius: 3px ;
+  background-image: url(bcg-menu.jpeg);
+  color: white ;
+  font-family: 'Dancing Script' , cursive;
+  font-size: 20px;
+  box-shadow: 0px 10px 14px -7px  white ;
+  font-weight: bold;
+  cursor: pointer;
+
+}
