@@ -1,0 +1,51 @@
+
+body {
+  background-image: url(bcg-menu.jpeg);
+}
+h1{
+color: white;
+text-align: center;
+font-family: 'damion',cursive;
+}
+
+  h2 {
+color: white;
+      height: 30px;
+      width: 260px;
+      font-size: 1em;
+      margin: 0.67em 0;
+      line-height: 1.25;
+      margin-top: 62px;
+
+      font-family: 'Damion', cursive;
+
+  }
+  section {
+    margin-left: 80px;
+    text-align: center;
+    color: white;
+    display: inline-flex;
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    justify-content: space-around;
+
+
+
+  }
+  img{
+    height: 180px;
+    width: 180px;
+  }
+#demander {
+  background-color: #8d7c73;
+    border: 1px solid #8d7c73;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
