@@ -1,26 +1,25 @@
-
 body {
-  background-image: url(bcg-menu.jpeg);
-}
-h1{
-color: white;
-text-align: center;
-font-family: 'damion',cursive;
+    background-image: url(bcg-menu.jpeg);
 }
 
-  h2 {
-color: white;
-      height: 30px;
-      width: 260px;
-      font-size: 1em;
-      margin: 0.67em 0;
-      line-height: 1.25;
-      margin-top: 62px;
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'damion', cursive;
+}
 
-      font-family: 'Damion', cursive;
+h2 {
+    color: white;
+    height: 30px;
+    width: 260px;
+    font-size: 1em;
+    margin: 0.67em 0;
+    line-height: 1.25;
+    margin-top: 62px;
+    font-family: 'Damion', cursive;
+}
 
-  }
-  section {
+section {
     margin-left: 80px;
     text-align: center;
     color: white;
@@ -29,16 +28,15 @@ color: white;
     height: 300px;
     width: 300px;
     justify-content: space-around;
+}
 
-
-
-  }
-  img{
+img {
     height: 180px;
     width: 180px;
-  }
+}
+
 #demander {
-  background-color: #8d7c73;
+    background-color: #8d7c73;
     border: 1px solid #8d7c73;
     color: #fff;
     cursor: pointer;

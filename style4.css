@@ -56,11 +56,13 @@ button {
 section {
     text-align: center;
 }
-p , h2 , h3 {
-  font-family: 'Cabin Sketch', cursive;
-  color: white;
+
+p, h2, h3 {
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
 }
+
 body {
-  background-image: url(fond.jpg);
-  background-size: 100%;
+    background-image: url(fond.jpg);
+    background-size: 100%;
 }

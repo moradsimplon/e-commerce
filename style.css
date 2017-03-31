@@ -116,11 +116,9 @@ p {
 footer {
     width: 100%;
     height: 200px;
-
 }
 
 span {
-
     margin: 80px;
     color: white;
     font-size: 15px;
@@ -128,7 +126,7 @@ span {
     font-style: oblique;
     font-family: 'Rock Salt', cursive;
 }
+
 .footer {
-  margin-top:  150px;
-  
+    margin-top: 150px;
 }
