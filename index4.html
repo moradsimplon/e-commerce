@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>CONTACT</title>
+    <link rel="icon" type="image/png" href="icone.png" />
     <link rel="stylesheet" href="style4.css">
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+</head>
+
+<body>
+
+    <section>
+        <h2>Où nous trouver</h2>
+        <div class="carte">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405691.581279055!2d-122.32197818584929!3d37.40247134453966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon+Valley%2C+Californie%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1490950183598"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="coordonnées">
+            <h3>Adresse</h3>
+            <p>Chic-Shop</p>
+            <p>
+                1600 Amphitheatre Parkway à Mountain View, Californie
+            </p>
+            <p> telephone : 00212 5 34 54 67 54</p>
+            <p> fax : 00212 5 34 54 67</p>
+            <p>courriel : chic-shop@chic-shop.com</p>
+
+        </div>
+
+    </section>
+    <section class="formulaire">
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="user_name" />
+            </div>
+            <div>
+                <label for="courriel">Courriel :</label>
+                <input type="email" id="courriel" name="user_email" />
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="user_message"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Envoyer votre message</button>
+            </div>
+        </form>
+    </section>
 
 
-  </body>
+</body>
+
 </html>
