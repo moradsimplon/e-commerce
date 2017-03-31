@@ -1,0 +1,13 @@
+body {
+  background-image: url(fond.jpg) ;
+  background-size: 100%;
+
+}
+header , article {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  color: white;
+  text-shadow: 3px 1px 3px 0px white ;
+}
